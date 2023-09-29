@@ -1,0 +1,40 @@
+\documentclass[12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{listings}
+\setlength{\parindent}{0pt}
+\usepackage{hyperref}
+\usepackage{siunitx}
+\DeclareSIUnit{\nothing}{\relax}
+\usepackage{float}
+\usepackage[ruled, linesnumbered,lined,boxed,commentsnumbered]{algorithm2e}
+\setcounter{secnumdepth}{0}
+\usepackage{geometry}
+\geometry{a4paper, margin=1.1in}
+\usepackage{amsmath}
+\usepackage[backend = biber, style = ieee]{biblatex}
+\addbibresource{internship.bib}
+
+\hypersetup{ 
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta, 
+    citecolor=blue,
+    urlcolor=red,
+    pdfpagemode=FullScreen,
+}
+
+\title{{\includegraphics[width=13cm]{images/nostril-5079604_1280.jpg}}\\
+\vspace{2cm}
+\textbf{Capstone Report: Livestock Identification Using
+Biometrics and Machine Learning}\\
+}
+\author{Team Cylab}
+\date{29th of Sept, 2023}
+
+
+\begin{document}
+\maketitle
+\tableofcontents
+\include{Literature Review}
+\end{document}
