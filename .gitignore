@@ -1,0 +1,6 @@
+data/AUG_LIGHTING/
+data/AUG_RESOLUTION/
+data/OG/
+venv
+*__pycache__*
+.idea
