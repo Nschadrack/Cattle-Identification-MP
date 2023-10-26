@@ -1,6 +1,4 @@
-data/AUG_LIGHTING/
-data/AUG_RESOLUTION/
-data/OG/
+data/*
 venv
 *__pycache__*
 .idea
