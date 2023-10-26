@@ -11,6 +11,7 @@ def show_or_save_pil_image(pil_image, save_image=False, save_path=None):
             path, filename = os.path.split(save_path)
             os.makedirs(path, exist_ok=True)  # Create directory if does not exist
             pil_image.save(save_path)
+            print(f"Saving image at {save_path}")
         else:
             raise ValueError("Save_path cannot be None if save_image is true, or check if path is correct!")
     else:
@@ -37,7 +38,6 @@ def apply_brightness_and_contrast_adjustment(pil_image, enhance_factor, save_ima
 def run_brightness_contrast_adjustment(image, enhance_factors_names, save_image=False):
     count_images = 0
     for factor, save_image_path in enhance_factors_names:
-        print(f"Saving image at {save_image_path}")
         apply_brightness_and_contrast_adjustment(image, enhance_factor=factor, save_image=save_image,
                                                  save_path=save_image_path)  # brightness enhancement
         count_images += 1
