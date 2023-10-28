@@ -21,12 +21,16 @@ def merge_datasets(merge_dest, include_og=False):
             content_images = os.listdir(os.path.join(ROOT_DATA_PATH, temp, content))
 
             os.makedirs(os.path.join(DESTINATION_PATH, content), exist_ok=True)
+            count_images = 0
             for image_name in content_images:  # each image
+                count_images += 1
                 source_path = os.path.join(ROOT_DATA_PATH, temp, content, image_name)
                 destination = os.path.join(DESTINATION_PATH, content, image_name)
                 shutil.copy2(source_path, destination)
 
                 print(f"COPY: {os.path.dirname(source_path)}  TO  {os.path.dirname(destination)}")
+                if include_og and temp.lower() == "og" and count_images == 4:
+                    break
 
 
 if __name__ == "__main__":
