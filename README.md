@@ -5,7 +5,7 @@
 - [Installation](#installation)
 - [Usage Instructions](#usage-instructions)
 - [How it Works](#how-it-works)
-- [Flowcharts for Prediction flow and Adding new Cow/Class to the model](#Flowcharts-for-Prediction-flow-and-Adding-new-Cow/Class-to-the-model)
+- [Flowcharts for Prediction flow and Adding new Cow/Class to the model](#Flowcharts-for-Prediction-flow-and-Adding-new-Cow-to-the-model)
 - [Contributing](#contributing)
 
 ## Introduction
@@ -59,7 +59,7 @@ We use Resnet50 as the CNN feature extractor, removing the fully connected netwo
    
    ![image](https://github.com/Nschadrack/Cattle-Identification-MP/assets/50202646/900148a8-335b-4648-9c77-2bf24d58b671)
 
-## Flowcharts for Prediction flow and Adding new Cow/Class to the model
+## Flowcharts for Prediction flow and Adding new Cow to the model
 
    ### 1. Pipeline for Making the Prediction
    
