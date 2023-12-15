@@ -43,7 +43,7 @@ This project implements two methods: Dot Product Approach and SIAMESE Network.
 
 The notebooks folder contains all notebooks and python files contains scripts we used for generating low quality images from original dataset using different image preprocessing techinques. 
 
-1. Dot Product
+### 1. Dot Product
   A novel approach involving a CNN model trained to extract features from images.
 We use Resnet50 as the CNN feature extractor, removing the fully connected network and replacing it with Dot Product.
    ### Model Architecture
@@ -53,7 +53,7 @@ We use Resnet50 as the CNN feature extractor, removing the fully connected netwo
     ![image](https://github.com/Nschadrack/Cattle-Identification-MP/assets/50202646/bbe37caa-720b-4b4a-ad46-e2835c1dadad)
 
 
-2. SIAMSE Netowrk
+### 2. SIAMSE Netowrk
    
    Utilizes pairwise similarity checks between two images.
    
