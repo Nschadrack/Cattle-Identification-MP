@@ -5,8 +5,8 @@
 - [Installation](#installation)
 - [Usage Instructions](#usage-instructions)
 - [How it Works](#how-it-works)
+- [Flowcharts for Prediction flow and Adding new Cow/Class to the model](#Flowcharts-for-Prediction-flow-and-Adding-new-Cow/Class-to-the-model)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 Biometric systems use various methods for identifying humans, and this approach can be effectively applied to cows. Traditionally, cows have been identified using methods like ear tags, tattoos, and electronic chips, which can cause health concerns. This project leverages Artificial Intelligence, specifically deep learning, to develop a non-invasive, efficient, and reliable model for identifying cows using their muzzleprint images, similar to facial and fingerprint recognition in humans.
@@ -59,14 +59,15 @@ We use Resnet50 as the CNN feature extractor, removing the fully connected netwo
    
    ![image](https://github.com/Nschadrack/Cattle-Identification-MP/assets/50202646/900148a8-335b-4648-9c77-2bf24d58b671)
 
+## Flowcharts for Prediction flow and Adding new Cow/Class to the model
 
-   ### Pipeline for Making the Prediction
+   ### 1. Pipeline for Making the Prediction
    
    Flow chart showing how we predict a cow identity given an image.
    
    ![image](https://github.com/Nschadrack/Cattle-Identification-MP/assets/50202646/24725a2c-4454-46e7-bf48-fe742b314909)
 
-   #### Pipeline for Adding a New Cow to the Model
+   #### 2. Pipeline for Adding a New Cow to the Model
    Flow chart showing how the model works by adding images of a new cow without retraining.  
     ![image](https://github.com/Nschadrack/Cattle-Identification-MP/assets/50202646/da81ad32-83b7-48da-9d62-3f2cfa0aaed9)
 
