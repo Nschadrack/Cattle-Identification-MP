@@ -51,12 +51,16 @@ We use Resnet50 as the CNN feature extractor, removing the fully connected netwo
 
 
 2. SIAMSE Netowrk
+   
    Utilizes pairwise similarity checks between two images.
+   
    ![image](https://github.com/Nschadrack/Cattle-Identification-MP/assets/50202646/900148a8-335b-4648-9c77-2bf24d58b671)
 
 
    ### Pipeline for Making the Prediction
+   
    Flow chart showing how we predict a cow identity given an image.
+   
    ![image](https://github.com/Nschadrack/Cattle-Identification-MP/assets/50202646/24725a2c-4454-46e7-bf48-fe742b314909)
 
    #### Pipeline for Adding a New Cow to the Model
