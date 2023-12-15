@@ -35,6 +35,9 @@ Install required packages:
 Navigate to the project's root directory.
 Run `pip install -r requirements.txt` (Windows) or `pip3 install -r requirements.txt` (Mac/Linux).
 
+## Usage Instructions
+To run the project, you need access to the dataset and must modify the data-path in the scripts. The environment requires Python 3.7+. For notebook usage, upload them to Google Colab or a similar platform supporting Jupyter Notebooks. The model training in Google Colab requires a minimum of 32GB RAM and a 16GB GPU, with a batch size of 32 and a model of 35M parameters.
+
 ## How it Works
 This project implements two methods: Dot Product Approach and SIAMESE Network.
 
