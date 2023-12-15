@@ -71,7 +71,7 @@ We use Resnet50 as the CNN feature extractor, removing the fully connected netwo
    Flow chart showing how the model works by adding images of a new cow without retraining.  
     ![image](https://github.com/Nschadrack/Cattle-Identification-MP/assets/50202646/da81ad32-83b7-48da-9d62-3f2cfa0aaed9)
 
-   You can read more from our [Paper](www.google.com)
+   You can read more from our [Paper](https://github.com/Nschadrack/Cattle-Identification-MP/blob/master/Cattle_identification_using_muzzleprints.pdf)
 
 ## Contributing
 We are exploring improvements to the dot product approach, particularly in maintaining model stability and accuracy when adding more cows. Contributions are welcome. To contribute, clone the repository and create a pull request (PR).
