@@ -3,6 +3,7 @@ import os
 PATHS = ["D:\CMU\Fall 23\Capstone\project\Cattle-Identification-MP\data\LOW_QUALITY_WITH_NO_OG",
          "D:\CMU\Fall 23\Capstone\project\Cattle-Identification-MP\data\LOW_QUALITY_WITH_OG"]
 
+
 with open("Statistics.txt", "w+") as f:
     for path in PATHS:
         images_classes = sorted(os.listdir(path))

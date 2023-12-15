@@ -56,5 +56,5 @@ def saving_transformed_image(transformation_function, og_path, cattle_names, tar
                 show_or_save_pil_image(transformed_image, save_image=True,
                                        save_path=os.path.join(target_path, cattle, filename + "_pers" + extension))
 
-            if count_images == min_images:
+            if count_images == min_images:l
                 break
